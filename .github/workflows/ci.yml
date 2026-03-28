@@ -30,3 +30,8 @@ jobs:
         run: |
           docker build -t mi-api:v0.1.0 .
           echo "Imagen v0.1.0 construida exitosamente"
+- name: Validar scripts de base de datos
+        run: |
+          echo "Revisando migraciones en db/migrations/..."
+          ls db/migrations/*.sql
+          echo "Scripts SQL detectados correctamente."

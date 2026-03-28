@@ -3,6 +3,7 @@
 Este repositorio contiene un ejemplo sencillo de **cómo insertar (agregar) un producto en una tabla de una base de datos** usando SQL.
 
 ## 1. Estructura de la tabla
+## 2. adicion de produto en tabla tomar en cuenta
 
 Ejemplo de tabla `productos` en MySQL:
 

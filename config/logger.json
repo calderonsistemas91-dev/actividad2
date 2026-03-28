@@ -1,0 +1,7 @@
+{
+  "service": "api-core",
+  "version": "v0.3.0",
+  "format": "json",
+  "level": "info",
+  "outputs": ["stdout", "/var/log/app.log"]
+}
